@@ -19,6 +19,7 @@ span {
   background-color: #041230;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 .navbar li {
   display: inline;
@@ -165,6 +166,12 @@ span {
   line-height: 1.4;
 }
 /*Recipie End*/
+
+/*Gallery Start*/
+
+.gallery {
+  margin-bottom: 200px;
+}
 .gallery h1 {
   text-align: center;
 }
@@ -183,9 +190,90 @@ span {
   width: 100%;
   height: auto;
   padding: 15px;
+  cursor: pointer;
+  z-index: -1;
 }
-
+.gallery-box img:hover {
+  opacity: 0.8;
+  overflow: hidden;
+}
 .gallery-box {
   float: left;
   width: 25%;
+  border-radius: 10px;
 }
+/*Gallery End*/
+
+/*Contact Start*/
+.contact {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  width: 50%;
+  text-align: center;
+}
+.contact h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.contact hr {
+  width: 80px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #041230;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2c3e50;
+  transition: 0.5s;
+}
+
+/*Contact End*/
+
+/*Social Start*/
+
+/*Social End*/
+
+/*Footer start*/
+footer {
+  background-color: #111111;
+}
+footer h3 {
+  text-align: center;
+  letter-spacing: 3px;
+  color: white;
+  padding: 20px;
+}
+footer p {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 15px;
+}
+/*Footer start*/
