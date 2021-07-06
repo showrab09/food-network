@@ -142,6 +142,7 @@ span {
   margin-left: 8%;
   margin-bottom: 8%;
   justify-content: space-around;
+  cursor: pointer;
 }
 .single-box {
   box-shadow: 10px 10px 30px grey;
@@ -257,7 +258,26 @@ input[type="submit"]:hover {
 /*Contact End*/
 
 /*Social Start*/
-
+.social {
+  width: 80%;
+  height: 150px;
+  display: flex;
+  margin: auto;
+  box-shadow: 10px 10px 30px #c5d5db;
+  margin-bottom: 50px;
+}
+.media {
+  width: 33.33333%;
+}
+.media h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 900;
+}
+.media p {
+  text-align: center;
+  font-weight: 300;
+}
 /*Social End*/
 
 /*Footer start*/
