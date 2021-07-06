@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -67,6 +70,7 @@ span {
 .half p {
   text-align: left;
   font-size: 18px;
+  font-weight: 300;
   margin-left: 120px;
   margin-bottom: 40px;
 }
@@ -109,6 +113,7 @@ span {
 .about p {
   text-align: justify;
   margin-right: 100px;
+  font-weight: 300;
 }
 .about a {
   text-align: left;
@@ -160,3 +165,27 @@ span {
   line-height: 1.4;
 }
 /*Recipie End*/
+.gallery h1 {
+  text-align: center;
+}
+.gallery hr {
+  width: 80px;
+  text-align: center;
+  margin: 20px auto;
+  margin-bottom: 100px;
+}
+.gallery-sec {
+  margin: auto;
+  width: 90%;
+  justify-content: space-around;
+}
+.gallery-box img {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+
+.gallery-box {
+  float: left;
+  width: 25%;
+}
