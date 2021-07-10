@@ -135,7 +135,7 @@ span {
   text-align: center;
   line-height: 1.5;
   font-size: 300;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .recipie-box {
   display: flex;
@@ -145,11 +145,15 @@ span {
   justify-content: space-around;
   cursor: pointer;
 }
+.single-box:hover {
+  transform: translateY(-30px);
+}
 .single-box {
   box-shadow: 10px 10px 30px grey;
   border-radius: 25px;
   width: 28%;
   height: auto;
+  transition: 0.3s;
 }
 .single-box img {
   width: 92%;
