@@ -163,6 +163,7 @@ span {
 }
 .single-box p {
   margin: 18px;
+  padding-bottom: 20px;
   text-align: justify;
   font-weight: 300;
   line-height: 1.4;
