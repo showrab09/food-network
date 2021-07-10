@@ -101,6 +101,7 @@ span {
   display: flex;
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -147,8 +148,8 @@ span {
 .single-box {
   box-shadow: 10px 10px 30px grey;
   border-radius: 25px;
-  height: 450px;
   width: 28%;
+  height: auto;
 }
 .single-box img {
   width: 92%;
